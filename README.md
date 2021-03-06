@@ -22,9 +22,12 @@ The official documentation on how to install Ionic is here: https://cli.vuejs.or
     - npm uninstall --save typescript @types/jest @typescript-eslint/eslint-plugin @typescript-eslint/parser @vue/cli-plugin-typescript @vue/eslint-config-typescript
 9. Change all .ts files to .js. In a blank Ionic Vue app, this should only be router/index.ts and main.ts.
 10. Remove @vue/typescript/recommended and @typescript-eslint/no-explicit-any: ‘off’, from .eslintrc.js.
-11. Remove Array<RouteRecordRaw> from router/index.js.
+11. Remove Array&lt;RouteRecordRaw&gt; from router/index.js.
 12. Delete the shims-vue.d.ts file.
 13. Remove lang="ts" from the script tags in any of your Vue components that have them. In a blank Ionic Vue app, this should only be App.vue and views/Home.vue.
+14. The tsconfig.json file can also be deleted since it is a configuration file for TypeScript.
+15. Delete the following file from router/index.js
+    - import { RouteRecordRaw } from 'vue-router';
 
 ## VS Code extensions for this project
 
