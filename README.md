@@ -35,31 +35,6 @@ The official documentation on how to install Ionic is here: https://cli.vuejs.or
 - Prettier (code formatting)
 - Vetur (VueJS development)
 
-## Old notes
-
-## Installation of Ionic on Linux
-
-If you want to create an Ionic project on Linux from scratch, this is how you do it.
-
-To install Ionic on Linux, go here:
-
-https://tecadmin.net/install-ionic-on-ubuntu-20-04/
-
-If a command won't work in the Terminal, try adding "sudo" in front of it.
-
-Tutorial: https://www.youtube.com/watch?v=mQ4zmFy4d7Y
-Extensions to install explained at 8.43
-
-Finally, you're going to run into frequent bugs if you don't use [this](https://github.com/academind/ionic-vue-getting-started/blob/master/.eslintrc.js) instead of your default .eslintrc.js file. The bug this file solves is this:
-
-```1:1  error  Parsing error: Unexpected token <```
-
-## Changing TypeScript (used by default) to JavaScript
-
-Documentation: https://ionicframework.com/docs/vue/quickstart
-
-The document tells you how to turn a TypeScript project into a JS project.
-
 ## Starting a server
 
 Type "ionic serve" in the termimal to start a server.
