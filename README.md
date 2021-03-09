@@ -28,6 +28,8 @@ The official documentation on how to install Ionic is here: https://cli.vuejs.or
 14. The tsconfig.json file can also be deleted since it is a configuration file for TypeScript.
 15. Delete the following file from router/index.js
     - import { RouteRecordRaw } from 'vue-router';
+16. npm install --save vuex
+    - I think this is what I did the tutorial. Uses something slightly different (npm install --save vuex@next). The part where this dependency is installed is around 55.25 in the video. 
 
 ## VS Code extensions for this project
 
@@ -38,4 +40,3 @@ The official documentation on how to install Ionic is here: https://cli.vuejs.or
 ## Starting a server
 
 Type "ionic serve" in the termimal to start a server.
-
